@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="../../css/index.css">
+<script src="../OwlCarousel2-2.3.4/docs/assets/owlcarousel/owl.carousel.min.js"></script>
 <footer style="border: 1px solid #ccc; background-color: black; ">
             <div style="display: flex; justify-content: center; padding-top: 60px;">
                 <img src="../image/logo.png" alt="">
@@ -7,7 +8,7 @@
             justify-content: center;">
                 <form action="">
                     <input type="text" style="padding: 10px 65px; border-radius: 5px; " placeholder="Your email ..." >
-                    <div class="a1 "  style="border-radius: 5px; padding: 10px 18px;background:black;border: 1px solid #fff;" >
+                    <div class="a1 "  style="border-radius: 5px; padding: 10px 18px;" >
                         <a href="" class="itme p-2">
                             <span >Subscribe</span>
                         </a>
@@ -42,6 +43,6 @@
             </nav>
         </footer>
     </div>
-        <script src="../OwlCarousel2-2.3.4/docs/assets/owlcarousel/owl.carousel.min.js"></script>
+        <script src="./OwlCarousel2-2.3.4/docs/assets/owlcarousel/owl.carousel.min.js"></script>
 </body>
 </html>

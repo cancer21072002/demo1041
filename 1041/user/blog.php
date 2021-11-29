@@ -75,14 +75,14 @@
                     <nav>
                         <ul class="text-center p-4">
                             <li class="inline-block mr-12 pt-2 " style="color: #fff;font-size: 16px; "><a
-                                    href="../index.php">Home</a></li>
-                            <li class="inline-block mr-12 " style="color: #fff;font-size: 16px;"><a href="./about.php">About</a>
+                                    href="./index.html">Home</a></li>
+                            <li class="inline-block mr-12 " style="color: #fff;font-size: 16px;"><a href="./about.html">About</a>
                             </li>
-                            <li class="inline-block mr-12" style="color: #fff;font-size: 16px;"><a href="./contact.php">Contact</a>
+                            <li class="inline-block mr-12" style="color: #fff;font-size: 16px;"><a href="./contact.html">Contact</a>
                             </li>
                             <li class="inline-block mr-12 " style="color: #fff;font-size: 16px;"><a
-                                    href="./blog.php">Blog</a></li>
-                            <li class="inline-block mr-12 " style="color: #fff;font-size: 16px;"><a href="./product.php">Products</a>
+                                    href="./blog.html">Blog</a></li>
+                            <li class="inline-block mr-12 " style="color: #fff;font-size: 16px;"><a href="./product.html">Products</a>
                             </li>
                         </ul>
                     </nav>
@@ -94,9 +94,6 @@
                                     placeholder="Search"></li>
                             <li class="inline-block mr-2" style="color: #fff;">
                                 <p><i id="icon" class="fas fa-search"></i></p>
-                            </li>
-                            <li class="inline-block mr-2" style="color: #fff;">
-                                <p><i id="icon"  class="far fa-user"></i></p>
                             </li>
                             <li class="inline-block" style="color: #fff;">
                                 <p><i class="fas fa-cart-plus"></i></p>
@@ -116,8 +113,8 @@
                         <h1 style="text-align: center;">Blog</h1>
                         <nav>
                             <ul style="text-align: center;">
-                                <li class="inline-block"><a href="./index.php">Home</a>></li>
-                                <li class="inline-block"><a href="./about.php">About</a></li>
+                                <li class="inline-block"><a href="./index.html">Home</a>></li>
+                                <li class="inline-block"><a href="./about.html">About</a></li>
                             </ul>
                         </nav>
 
@@ -378,7 +375,7 @@
             justify-content: center;">
                 <form action="">
                     <input type="text" style="padding: 10px 65px; border-radius: 5px; " placeholder="Your email ...">
-                    <div class="a1 "  style="border-radius: 5px; padding: 10px 18px;background:black;border: 1px solid #fff;" >
+                    <div class="a1 " style="border-radius: 5px; padding: 10px 18px;">
                         <a href="" class="itme p-2">
                             <span>Subscribe</span>
                         </a>

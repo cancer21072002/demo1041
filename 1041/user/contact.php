@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,36 +21,34 @@
             width: 350px;
             height: 100px;
         }
-
+    
         .btn {
-            width: 160px;
-            height: 60px;
-            border: 1px solid black;
-            background-color:blanchedalmond;
+            width: 350px;
+            height: 100px;
+            border: 2px solid black;
+            background-color: white;
             color: black;
             padding: 14px 28px;
             font-size: 16px;
             cursor: pointer;
-            margin-left: 220px;
-            /* margin-bottom: 150px; */
-            
+            margin-left: 150px;
+            margin-bottom: 150px;
         }
-
-
+    
         .default {
-
+            
             border-color: #030303;
             color: #e7e7e7;
         }
-
+    
         .default:hover {
             background: white;
-            color: #050505;
-            border: 2px solid black;
+             color: #050505;
+             border: 2px solid black;
         }
     </style>
     <script>
-        $(document).ready(function() {
+        $(document).ready(function () {
             $(".container-banner").owlCarousel({
                 items: 1,
                 loop: true,
@@ -79,7 +76,6 @@
         });
     </script>
 </head>
-
 <body>
     <div class="header" style="border: 1px solid #ccc; background-color: black;">
         <div class="rowss" style="display: grid;
@@ -90,139 +86,121 @@
             <div class="columnss">
                 <nav>
                     <ul class="text-center p-4">
-                        <li class="inline-block mr-12 pt-2 " style="color: #fff;font-size: 16px; "><a href="../index.php">Home</a></li>
-                        <li class="inline-block mr-12 " style="color: #fff;font-size: 16px;"><a href="./about.php">About</a></li>
-                        <li class="inline-block mr-12" style="color: #fff;font-size: 16px;"><a href="./contact.php">Contact</a></li>
-                        <li class="inline-block mr-12 " style="color: #fff;font-size: 16px;"><a href="./blog.php">Blog</a>
+                        <li class="inline-block mr-12 pt-2 " style="color: #fff;font-size: 16px; "><a
+                                href="./index.html">Home</a></li>
+                        <li class="inline-block mr-12 " style="color: #fff;font-size: 16px;"><a href="./about.html">About</a></li>
+                        <li class="inline-block mr-12" style="color: #fff;font-size: 16px;"><a href="./contact.html">Contact</a></li>
+                        <li class="inline-block mr-12 " style="color: #fff;font-size: 16px;"><a href="./blog.html">Blog</a>
                         </li>
-                        <li class="inline-block mr-12 " style="color: #fff;font-size: 16px;"><a href="./product.php">Products</a></li>
+                        <li class="inline-block mr-12 " style="color: #fff;font-size: 16px;"><a
+                                href="./product.html">Products</a></li>
                     </ul>
                 </nav>
             </div>
             <div class="sea " style="margin-top: 30px;margin-left: -50px;">
                 <form action="">
                     <ul class="text-center">
-                        <li class="inline-block"><input style="padding: 5px ;border-radius: 5px;" type="text" placeholder="Search"></li>
+                        <li class="inline-block"><input style="padding: 5px ;border-radius: 5px;" type="text"
+                                placeholder="Search"></li>
                         <li class="inline-block mr-2" style="color: #fff;">
                             <p><i id="icon" class="fas fa-search"></i></p>
-                        </li>
-                        <li class="inline-block mr-2" style="color: #fff;">
-                            <p><i id="icon" class="far fa-user"></i></p>
                         </li>
                         <li class="inline-block" style="color: #fff;">
                             <p><i class="fas fa-cart-plus"></i></p>
                         </li>
                     </ul>
-
+    
                 </form>
             </div>
         </div>
-
+    
     </div>
     <div class="banner">
-        <div class="banner1">
-            <div class="imga" style="position: relative;">
-
-                <div class="texts" style="position: absolute; ">
-                    <h1 style=" color: gainsboro;; font-weight: bold;;margin-left:550px;margin-top: 160px;">CONTACT US</h1>
-                    <nav>
-                        <ul style="text-align: center; color:#fff;margin-left:500px">
-                            <li class="inline-block text-center"><a href="./index.html">Home</a>></li>
-                            <li class="inline-block text-center"><a href="">CONTACTS</a></li>
-                        </ul>
-                    </nav>
-
-                </div>
-                <div class="">
-                    <img src="../image/bn.jpg" alt="" width="100%">
+        <div class="container-banner owl-carousel owl-theme">
+    
+    
+            <div class="content2">
+                <div class="img">
+                    <img src="../image/contact.jpg" alt="">
                 </div>
             </div>
-
         </div>
     </div>
-    <div class="text-center">
-        <h2 style="text-align: center;padding-top: 40px;font-size:40px">CONTACT</h2>
-    </div>
-    </div>
     <div class="m-16">
-        <aside class=" grid grid-cols-2 gap-8">
+        <aside class=" grid grid-cols-2 gap-8" >
             <div class="col-spans-1">
-                <div class="imga" style="position: relative;">
-                    <div class="texts" style="position: absolute; text-align: center;">
-                        <button class="btn default" style="margin-top:255px">SHOP NOW</button>
-                    </div>
-                    <div class="">
-                        <img src="../image/clio.jpg" alt="">
-                    </div>
-                </div>
+                <img src="../image/great.JPG" alt="">
+                <button class="btn default">SHOP NOW</button>
             </div>
             <div class="col-spans-1">
                 <img src="../image/always.JPG" alt="">
                 <p class="ml-16 w-3/4 mb-8">Ullamcorper dignissim tincidunt lobortis feugiat vivamus augue eget. Morbi leo urna molestie elementum facilisis sed
-                    odio. Ac tortor dignissim convallis tortor at.</p>
-
-                <div class="ml-16 grid grid-cols-3 gap-4">
-                    <img class="col-spans-1" src="../image/visit (1).JPG" alt="">
-                    <div class="col-spans-1 ">
-                        <p class=" text-left -ml-32 col ">VISIT US:</p>
-                        <p class="text-left -ml-32">27 Division St, New York, NY 10002, USA</p>
-
-                    </div>
+                odio. Ac tortor dignissim convallis tortor at.</p>
+            
+            <div class="ml-16 grid grid-cols-3 gap-4">
+                <img  class="col-spans-1" src="../image/visit (1).JPG" alt="">
+                <div class="col-spans-1 ">
+                    <p class=" text-left -ml-32 col ">VISIT US:</p>
+                    <p class="text-left -ml-32">27 Division St, New York, NY 10002, USA</p>
 
                 </div>
-                <div class="ml-16 grid grid-cols-3 gap-4 my-4">
-                    <img class="col-spans-1" src="../image/mall.JPG" alt="">
-                    <div class="col-spans-1 ">
-                        <p class=" text-left -ml-32 col ">MALL US:</p>
-                        <p class="text-left -ml-32">nuagecontacts@gmail.com</p>
-
-                    </div>
-
+                
+            </div>
+            <div class="ml-16 grid grid-cols-3 gap-4 my-4">
+                <img class="col-spans-1" src="../image/mall.JPG" alt="">
+                <div class="col-spans-1 ">
+                    <p class=" text-left -ml-32 col ">MALL US:</p>
+                    <p class="text-left -ml-32">nuagecontacts@gmail.com</p>
+            
                 </div>
-                <div class="ml-16 grid grid-cols-3 gap-4">
-                    <img class="col-spans-1" src="../image/call.JPG" alt="">
-                    <div class="col-spans-1 ">
-                        <p class=" text-left -ml-32 col ">CALL US:</p>
-                        <p class="text-left -ml-32">+1 (880) 555 353 505</p>
-
-                    </div>
-
+            
+            </div>
+            <div class="ml-16 grid grid-cols-3 gap-4">
+                <img class="col-spans-1" src="../image/call.JPG" alt="">
+                <div class="col-spans-1 ">
+                    <p class=" text-left -ml-32 col ">CALL US:</p>
+                    <p class="text-left -ml-32">+1 (880) 555 353 505</p>
+            
                 </div>
+            
+            </div>
             </div>
         </aside>
-
-
-        <form class="p-16  w3-container w3-card-4 w3-light-grey ml-32 relative w-3/4">
-            <h1>DROP US A LINE</h1>
-            <div class="grid grid-cols-2 gap-8">
-                <p class="col-spans-1">
-                    <label>Your Name*</label>
+        
+            
+            <form class="p-16  w3-container w3-card-4 w3-light-grey ml-32 relative w-3/4">
+                <h1>DROP US A LINE</h1>
+                <div class="grid grid-cols-2 gap-8">
+                    <p class="col-spans-1">
+                        <label>Your Name*</label>
+                        <input class="w3-input" type="text">
+                    </p>
+                    <p class="col-spans-1">
+                        <label>Your Email*</label>
+                        <input class="w3-input" type="text">
+                    </p>
+                </div>
+                <p>
+                    <label>Your Website</label>
                     <input class="w3-input" type="text">
                 </p>
-                <p class="col-spans-1">
-                    <label>Your Email*</label>
-                    <input class="w3-input" type="text">
+                <p>
+                    <label>Message</label>
+                    <br>
+                    <input type="text" name="" id="" placeholder="" class="p-8 text-0.5xl w-full mb-4 ">
+                    
                 </p>
-            </div>
-            <p>
-                <label>Your Website</label>
-                <input class="w3-input" type="text">
-            </p>
-            <p>
-                <label>Message</label>
-                <br>
-                <input type="text" name="" id="" placeholder="" class="p-8 text-0.5xl w-full mb-4 ">
-
-            </p>
-            <button class="w3-button w3-black w3-border mb-8">GET IN TOUCH</button>
-        </form>
-
-
+                <button class="w3-button w3-black w3-border mb-8">GET IN TOUCH</button>
+            </form>
+        
+        
 
     </div>
     <article class="w-full -mt-40">
-        <iframe class="w-full" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7838.684254869503!2d106.70676642475235!3d10.785086936675276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1547181657956" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-    </article>
+            <iframe class="w-full"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7838.684254869503!2d106.70676642475235!3d10.785086936675276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1547181657956"
+                width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </article>
     <footer style="border: 1px solid #ccc; background-color: black; ">
         <div style="display: flex; justify-content: center; padding-top: 60px;">
             <img src="../image/logo.png" alt="">
@@ -231,14 +209,14 @@
                     justify-content: center;">
             <form action="">
                 <input type="text" style="padding: 10px 65px; border-radius: 5px; " placeholder="Your email ...">
-                <div class="a1 " style="border-radius: 5px; padding: 10px 18px;background:black;border: 1px solid #fff;">
+                <div class="a1 " style="border-radius: 5px; padding: 10px 18px;">
                     <a href="" class="itme p-2">
                         <span>Subscribe</span>
                     </a>
                 </div>
             </form>
         </div>
-
+    
         <nav>
             <ul class="text-center p-4">
                 <li class="inline-block mr-16  " style="color: #fff; font-size: 20px;"><a href="">Home</a></li>
@@ -268,5 +246,4 @@
     </div>
     <script src="./OwlCarousel2-2.3.4/docs/assets/owlcarousel/owl.carousel.min.js"></script>
 </body>
-
 </html>

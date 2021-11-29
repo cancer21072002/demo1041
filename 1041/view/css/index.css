@@ -25,7 +25,6 @@
 .other{
     border: 1px solid #CCC;
     background-color: black;
-
 }
 .rowe {
     display: grid;
@@ -34,22 +33,21 @@
 }
 .a1{
     padding: 13px 23px;
-    border: 1px solid #fff;
+    border: 1px solid #f9966c;
     display: inline-block;
     text-transform: uppercase;
     color: white;
     font-weight: bold;
-    background: #0a0a0a;
+    background: #f9966c;
     z-index: 10;
-   
 }
 .a1{
     padding: 10px 20px;
-    border: 1px solid #fff;
+    border: 1px solid #f9966c;
     display: inline-block;
     text-transform: uppercase;
     color: white;
     font-weight: bold;
-    background: #0a0a0a;
+    background: #f9966c;
     z-index: 10;
 }

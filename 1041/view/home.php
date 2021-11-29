@@ -37,34 +37,13 @@
         </div>
         <article>
             <div class="roww container-item owl-carousel owl-theme" style="padding-top: 30px;">
-                <div class=" columnn border border-gray-50">
-                    <!-- <div class="column">
-                        <div id="hover-img">
-                            <img   src="../image/product/sp1.jpg" alt="">
-                        </div>  
-                       
-                        <ul class="text-center pt-4">
-                            <li class="inline-block "><a class="yellow discoloration" href=""><i
-                                        class="fas fa-star"></i></a></li>
-                            <li class="inline-block "><a class="yellow discoloration" href=""><i
-                                        class="fas fa-star"></i></a></li>
-                            <li class="inline-block "><a class="yellow discoloration" href=""><i
-                                        class="fas fa-star"></i></a></li>
-                            <li class="inline-block "><a class="yellow discoloration" href=""><i
-                                        class="fas fa-star-half-alt"></i></a></li>
-                            <li class="inline-block "><a class="yellow discoloration" href=""><i
-                                        class="far fa-star"></i></a></li>
-                        </ul>
-                        <div class="text-center">
-                            <a class="discoloration" href="">Carrots Group Scal</a>
-                        </div>
-                        <p class="text-center">$32.00</p>
-                    </div> -->
+                <!-- <div class=" columnn border border-gray-50">
+                
                   
-                </div>
-            </div>
-        </article>
-        <?php
+                </div> -->
+                
+           
+            <?php
                     $i = 0;
                     foreach ($spnew as $sp) {
                         extract($sp);
@@ -80,11 +59,14 @@
                                             <div class="row img"><a href="' . $linksp . '"><img width="50%" src="' . $hinh . '" alt=""></a></div>
                                             <p style="text-align: center;">$' . $price . '</p>
                                             <a style="text-align: center;font-size:16px;" href="' . $linksp . '">' . $name . '</a>
-                                        
+                                            <div><button class="btn btn-success" >Add to cart</button></div>
                                         </div>';
                         $i += 1;
                     }
                     ?>
+                     </div>
+        </article>
+     
         <div class="learn" style="padding-top: 40px; padding-bottom: 40px;">
             <div class="a1" >
                 <a href="" class="itme">
@@ -152,10 +134,10 @@
             <div class="columne">
                     <img src="image/blog1.jpg" alt="">
                 <div>
-                   <h2 style="text-align: center; padding-top: 8px; "><a href="/1041/user/blog1.php">How to choose perfect makeup</a></h2>
+                   <h2 style="text-align: center; padding-top: 8px; "><a href="">How to choose perfect makeup brushes</a></h2>
                    <div class="learn" style="padding: 20px;">
                     <div class="a1" >
-                        <a href="/1041/user/blog1.php" class="itme">
+                        <a href="" class="itme">
                             <span>Read more</span>
                         </a>
                     </div>
@@ -164,10 +146,10 @@
             </div>
               <div class="columne">
                   <img src="image/blog2.jpg" alt="">
-                 <h2 style="text-align: center;padding-top: 8px; "><a href="/1041/user/blog2.php">Top 10 hand creams for soft skin</a></h2> 
+                 <h2 style="text-align: center;padding-top: 8px; "><a href="">Top 10 hand creams for soft skin</a></h2> 
                   <div class="learn" style="padding: 20px;">
                     <div class="a1" >
-                        <a href="/1041/user/blog2.php" class="itme">
+                        <a href="" class="itme">
                             <span>Read more</span>
                         </a>
                     </div>
@@ -175,10 +157,10 @@
               </div>
               <div class="columne">
                 <img src="image/blog3.jpg" alt=""> 
-                <h2 style="text-align: center;padding-top: 8px;  "><a href="/1041/user/blog3.php">Herbal ingredients in fragrance</a></h2>
+                <h2 style="text-align: center;padding-top: 8px;  "><a href=" ">Herbal ingredients in fragrance</a></h2>
                 <div class="learn" style="padding: 20px;">
                   <div class="a1" >
-                      <a href="/1041/user/blog3.php" class="itme">
+                      <a href="" class="itme">
                           <span>Read more</span>
                       </a>
                   </div>

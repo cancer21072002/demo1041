@@ -304,9 +304,7 @@
                     </div>
                     <p class="text-center">$32.00</p>
                 </div> -->
-            </div>
-        </article>
-        <?php
+                <?php
                     $i = 0;
                     foreach ($spnew as $sp) {
                         extract($sp);
@@ -326,6 +324,9 @@
                         $i += 1;
                     }
                     ?>
+            </div>
+        </article>
+        
         <div class="learn" style="padding-top: 40px; padding-bottom: 40px;">
             <div class="a1" >
                 <a href="" class="itme">
@@ -405,7 +406,7 @@
             </div>
               <div class="columne">
                   <img src="../image/blog2.jpg" alt="">
-                 <h2 style="text-align: center;padding-top: 8px; "><a href="../user/blog1.php">Top 10 hand creams for soft skin</a></h2> 
+                 <h2 style="text-align: center;padding-top: 8px; "><a href="">Top 10 hand creams for soft skin</a></h2> 
                   <div class="learn" style="padding: 20px;">
                     <div class="a1" >
                         <a href="" class="itme">
@@ -416,10 +417,10 @@
               </div>
               <div class="columne">
                 <img src="../image/blog3.jpg" alt=""> 
-                <h2 style="text-align: center;padding-top: 8px;  "><a href="../user/blog1.php">Herbal ingredients in fragrance</a></h2>
+                <h2 style="text-align: center;padding-top: 8px;  "><a href=" ">Herbal ingredients in fragrance</a></h2>
                 <div class="learn" style="padding: 20px;">
                   <div class="a1" >
-                      <a href="blog1.php" class="itme">
+                      <a href="" class="itme">
                           <span>Read more</span>
                       </a>
                   </div>
