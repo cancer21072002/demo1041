@@ -20,14 +20,7 @@
                 <div>
                     <h2 style="font-size: 18px;">[ Jordan panda ] Giày jordan cổ cao 🌟FULL BOX BILL🌟 Giầy thể thao nam nữ, Giày sneaker nam nữ</h2>
                     <p style="font-size: 18px;"> <?php echo $price ?>đ</p>
-                    <input style="padding: 10px;
-    background: red;
-    font-size: 16px;
-    color: #FFF;
-    border-radius:5px;
-    border: 1px solid red;" type="submit" value="Mua hàng">
-                    <p style="margin-top: 20px;
-    font-size: 14px;">
+                    <input type="submit" name="addtocart" id="" value="Thêm vào giỏ hàng">
                         <?php echo $mota; ?>
                     </p>
                 </div>

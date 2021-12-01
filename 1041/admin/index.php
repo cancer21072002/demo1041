@@ -167,20 +167,20 @@ if (isset($_GET['act'])) {
             /*control khach hang */
             /*control khach hang */
 
-        // case 'dskh':
-        //     $listtaikhoan = loadall_taikhoan();
-        //     include "taikhoan/list.php";
+        case 'dskh':
+            $listtaikhoan = loadall_taikhoan();
+            include "taikhoan/list.php";
             
-        //     break;
+            break;
 
-        // case 'xoatk':
-        //     if (isset($_GET['id']) && ($_GET['id'] > 0)) {
+        case 'xoatk':
+            if (isset($_GET['id']) && ($_GET['id'] > 0)) {
             
-        //         delete_taikhoan($_GET['id']);
-        //     }
-        //     $listtaikhoan = loadall_taikhoan();
-        //     include "taikhoan/list.php";
-        //     break;
+                delete_taikhoan($_GET['id']);
+            }
+            $listtaikhoan = loadall_taikhoan();
+            include "taikhoan/list.php";
+            break;
 
 
 
@@ -214,5 +214,5 @@ if (isset($_GET['act'])) {
     }
     
 } 
-// include "./layouts/footer.php";
+
 ?>

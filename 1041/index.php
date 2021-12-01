@@ -4,8 +4,15 @@ include "model/pdo.php";
 include "model/loaihang.php";
 include "model/sanpham.php";
 include "model/taikhoan.php";
+include "model/cart.php";
 include "view/header.php";
+
+// include "view/taikhoan.php";
+// include "products/header.php";
 include "global.php";
+
+if (!isset($_SESSION['mycart'])) $_SESSION['mycart'] = [];
+
 
 $spnew = loadall_sanpham_home();
 $dsdm = loadall_loaihang();
@@ -53,7 +60,7 @@ if ((isset($_GET['act'])) && ($_GET['act'] != "")) {
             }
             include "view/taikhoan/dangky.php";
             break;
-            
+
         case 'dangnhap':
             if (isset($_POST['dangnhap']) && ($_POST['dangnhap'])) {
 
@@ -101,10 +108,39 @@ if ((isset($_GET['act'])) && ($_GET['act'] != "")) {
             include "view/taikhoan/quenmk.php";
             break;
         case 'thoat':
-           session_unset();
-           header('location: index.php');
+            session_unset();
+            header('location: index.php');
             break;
-
+        case 'sanpham':
+            include "view/sanpham.php";
+            break;
+        case 'addtocart':
+            if (isset($_POST['addtocart']) && ($_POST['addtocart'])) {
+                $id = $_POST['id'];
+                $name = $_POST['name'];
+                $price = $_POST['price'];
+                $img = $_POST['img'];
+                $soluong = 1;
+                $tongtien = $soluong * $price;
+                $spadd = [$id, $name, $img, $price, $soluong, $tongtien];
+                array_push($_SESSION['mycart'], $spadd);
+            }
+            include "view/cart/viewcart.php";
+            break;
+            case 'delcart':
+                if (isset($_GET['idcart'])) {
+                    array_splice($_SESSION['mycart'], $_GET['idcart'], 1);
+                } else {
+                    $_SESSION['mycart'] = [];
+                }
+                #header('location: index.php?act=addtocart');
+                include "view/cart/viewcart.php";
+        case 'bill':
+            include "view/cart/bill.php";
+            break;
+            case 'mybill':
+                include "view/cart/mybill.php";
+                break;
         case 'gioithieu':
             include "view/gioithieu.php";
             break;
