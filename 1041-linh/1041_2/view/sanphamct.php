@@ -43,7 +43,7 @@
 		</form>
 		<div class="prev-comments">
 			<?php 
-            if()
+           
 			?>
 			<div class="single-item">
 				<p><?php echo $row['comment']; ?></p>
