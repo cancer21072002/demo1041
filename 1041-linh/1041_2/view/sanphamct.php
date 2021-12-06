@@ -31,7 +31,7 @@
         <div class="row" id="binhluan">
          <?php  ?>
         <div class="wrapper">
-		<form action="" method="POST" class="form">
+		<form action="/1041_2/view/comments/binhluanform.php" method="POST" class="form">
 			<div class="input-group textarea">
 				<label for="comment">Comment</label>
 				<textarea id="comment" name="comment" placeholder="Enter your Comment" required></textarea>

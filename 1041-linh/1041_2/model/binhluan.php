@@ -1,15 +1,5 @@
 
 <?php
-//đẩy tên người comment
-function insert_name($name){
-    $sql = "insert into binhluan(name) values('$$name')";
-    pdo_execute($sql);
-}
-//đẩy email người comment
-function insert_email($email){
-    $sql = "insert into binhluan(name) values('$$email')";
-    pdo_execute($sql);
-}
 //đẩy nội dung người comment
 function insert_comment($comment){
     $sql = "insert into binhluan(name) values('$$comment')";
